@@ -1,0 +1,203 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+   overflow-y: scroll;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    height: 877.3px;
+    width: 1512.8px;
+}
+h2{
+    font-weight: 200;
+}
+.loginBox{
+    position: relative; /*now position can  change*/
+    left:-290px;
+    bottom:100px;
+    float: right;
+    width: 396px;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 20px 0 28px;
+  
+    
+ 
+    
+    
+    
+   
+}
+#email{
+    font-size: 17px;
+   border: 1px solid #dddfe2;
+   height: 22px;
+  
+   color:black;
+    width: 330px;
+    padding: 14px 16px;
+    border-radius:6px ;
+    vertical-align:middle;      
+}
+
+#password{
+    border: 1px solid #dddfe2;
+   font-size: 14px;
+   width: 330px;
+   padding: 14px 16px;
+}
+/*login button*/
+.btnS{
+    background-color: #0847cb;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 16px;
+    width: 330px;
+    border:  1px solid #dddfe2;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+    
+}
+/*end --------login button*/
+
+.forgotP{
+   margin: 16px 0 0;
+}
+
+a{
+    text-decoration: none;
+    margin-top:-1000px;
+padding: 0;
+}
+a:visited{color: #0847cb;}
+a:hover{color:#0847cb; text-decoration:underline;}
+
+.hrLine{
+    border-bottom: 1px solid #dadde1;
+margin: 20px 16px;
+    
+}
+        /*create new account button*/
+.button2{
+   margin-top: 16px;
+    width:396px ;
+    height: 54px;
+    text-align: center;
+
+}
+.btnNew{
+    background-color: #3cbc42 ;
+    display:inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding:  16px;
+    width: 230px;
+    border:none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.btnNew:hover{
+    transition: 0.3s;
+    background-color:#34a33a;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+ /*end ---------create new account button*/
+
+
+ .fblogo{
+     position: relative;
+     left:240px;
+     top:170px;
+
+ }
+ .fbP{
+    position: relative;
+    left:270px;
+    top:130px;
+    font-size: 19px;
+    
+ }
+ @media (max-width: 768px) {
+    .container {
+        height: auto;
+        width: 100%;
+    }
+
+    .loginBox {
+        width: 396px;
+        left: 0;
+        margin: 0;
+        bottom: 60px;
+    }
+
+    .fblogo {
+        left:0; 
+        top: 150px;
+         
+    }
+    .fbP{
+       top:110px ; 
+       left:30px;
+       font-size: 11px;
+    }
+  
+
+  
+}
+@media (max-width: 688px) {
+    .container {
+        height: auto;
+        width: 100%;
+    }
+
+    .loginBox {
+        width: 396px;
+        left: -30px;
+        bottom: 40px;
+    }
+
+    .fblogo {
+        left:120px; 
+        top: 0px;
+         
+    }
+    .fbP{
+       top:-35px ; 
+       left:150px;
+       font-size: 11px;
+    }
+  
+}
+
